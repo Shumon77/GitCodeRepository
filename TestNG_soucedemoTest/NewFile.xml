@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suit name = "Regrassion Test">
+
+<test name = "Domain test">
+
+
+
+
+
+<classes>
+
+
+
+
+<class name = "testScript.TestNGTestScript"></class>
+
+<class name = "testScript.LoginTest"></class>
+
+
+
+
+
+
+</classes>
+
+</test>
+
+
+</suit>

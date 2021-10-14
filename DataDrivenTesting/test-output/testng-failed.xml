@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DataDrivenTesting]">
+  <parameter name="password" value="secret_sauce"/>
+  <parameter name="username" value="standard_user"/>
+  <parameter name="expectedurl" value="https://www.saucedemo.com/inventory.html"/>
+  <test name="Positive Testing(failed)">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="username" value="standard_user"/>
+    <parameter name="expectedurl" value="https://www.saucedemo.com/inventory.html"/>
+    <classes>
+      <class name="dtRunScript.DataRunTest">
+        <methods>
+          <include name="beforeeachtest"/>
+          <include name="beforeeachtest"/>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+          <include name="beforetest"/>
+          <include name="validatingpositivedata"/>
+        </methods>
+      </class> <!-- dtRunScript.DataRunTest -->
+    </classes>
+  </test> <!-- Positive Testing(failed) -->
+</suite> <!-- Failed suite [DataDrivenTesting] -->

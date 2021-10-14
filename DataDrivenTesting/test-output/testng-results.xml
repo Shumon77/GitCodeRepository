@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DataDrivenTesting" duration-ms="7258" started-at="2021-09-29T17:33:01Z" finished-at="2021-09-29T17:33:08Z">
+    <groups>
+    </groups>
+    <test name="Positive Testing" duration-ms="4635" started-at="2021-09-29T17:33:01Z" finished-at="2021-09-29T17:33:05Z">
+      <class name="dtRunScript.DataRunTest">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:dtRunScript.DataRunTest@4439f31e]" name="beforetest" is-config="true" duration-ms="3724" started-at="2021-09-29T13:33:01Z" finished-at="2021-09-29T13:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforeeachtest()[pri:0, instance:dtRunScript.DataRunTest@4439f31e]" name="beforeeachtest" is-config="true" duration-ms="214" started-at="2021-09-29T13:33:05Z" finished-at="2021-09-29T13:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeachtest -->
+        <test-method status="PASS" signature="validatingpositivedata(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dtRunScript.DataRunTest@4439f31e]" name="validatingpositivedata" duration-ms="675" started-at="2021-09-29T13:33:05Z" finished-at="2021-09-29T13:33:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingpositivedata -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:dtRunScript.DataRunTest@4439f31e]" name="aftertest" is-config="true" duration-ms="1" started-at="2021-09-29T13:33:05Z" finished-at="2021-09-29T13:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- dtRunScript.DataRunTest -->
+    </test> <!-- Positive Testing -->
+    <test name="Negative Data" duration-ms="2558" started-at="2021-09-29T17:33:06Z" finished-at="2021-09-29T17:33:08Z">
+      <class name="dtRunScript.DataRunTest">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:dtRunScript.DataRunTest@2a2d45ba]" name="beforetest" is-config="true" duration-ms="1846" started-at="2021-09-29T13:33:06Z" finished-at="2021-09-29T13:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforeeachtest()[pri:0, instance:dtRunScript.DataRunTest@2a2d45ba]" name="beforeeachtest" is-config="true" duration-ms="154" started-at="2021-09-29T13:33:07Z" finished-at="2021-09-29T13:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeachtest -->
+        <test-method status="PASS" signature="validatingpositivedata(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dtRunScript.DataRunTest@2a2d45ba]" name="validatingpositivedata" duration-ms="553" started-at="2021-09-29T13:33:08Z" finished-at="2021-09-29T13:33:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingpositivedata -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:dtRunScript.DataRunTest@2a2d45ba]" name="aftertest" is-config="true" duration-ms="1" started-at="2021-09-29T13:33:08Z" finished-at="2021-09-29T13:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- dtRunScript.DataRunTest -->
+    </test> <!-- Negative Data -->
+  </suite> <!-- DataDrivenTesting -->
+</testng-results>

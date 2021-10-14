@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "DataDrivenTesting">
+
+<test name = "Positive Testing">
+
+<parameter name="username" value="standard_user"></parameter>
+
+<parameter name="password" value="secret_sauce"></parameter>
+
+<parameter name="expectedurl" value="https://www.saucedemo.com/inventory.html"></parameter>
+<classes>
+
+<class name ="dtRunScript.DataRunTest"></class>
+
+
+</classes>
+
+
+</test>
+
+<parameter name="username" value="locked_out_user"></parameter>
+
+<parameter name="password" value="secret_sauce"></parameter>
+
+<parameter name="expectedurl" value="https://www.saucedemo.com/"></parameter>
+
+<test name ="Negative Data">
+
+<classes>
+
+<class name = "dtRunScript.DataRunTest"></class>
+
+
+
+</classes>
+
+</test>
+
+</suite>
