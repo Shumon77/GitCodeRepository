@@ -88,7 +88,7 @@ public class TestNGTestScript {
 	}
 	
 	
-	@Test(priority=1)
+	@Test(priority=1)//(dependsOnMethods = "positiveloginTest")
 	public void negativeloginTest() throws InterruptedException {
 		
 		

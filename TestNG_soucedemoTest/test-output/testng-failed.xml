@@ -5,6 +5,7 @@
     <classes>
       <class name="testScript.TestNGTestScript">
         <methods>
+          <include name="afterTest"/>
           <include name="positiveloginTest"/>
           <include name="beforeTest"/>
           <include name="negativeloginTest"/>
