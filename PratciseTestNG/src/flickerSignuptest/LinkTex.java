@@ -20,24 +20,27 @@ public class LinkTex {
 		driver.manage().deleteAllCookies();
 		
 		
-		driver.findElement(By.linkText("Sign in")).click();
+		//driver.findElement(By.linkText("Sign in")).click();
 		
 		
-		Thread.sleep(2000);
-		driver.findElement(By.id("email_create")).sendKeys("tom@icloud.com");
+		//Thread.sleep(2000);
+		//driver.findElement(By.id("email_create")).sendKeys("tom@icloud.com");
 		
 		
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@id=\"SubmitCreate\"]/span")).click();
+		//Thread.sleep(2000);
+		//driver.findElement(By.xpath("//*[@id=\"SubmitCreate\"]/span")).click();
 		
 		
-		WebElement maleradiobutton = driver.findElement(By.name("id_gender"));
-		maleradiobutton.click();
+		//WebElement maleradiobutton = driver.findElement(By.name("id_gender"));
+		//maleradiobutton.click();
 		
-		boolean z = maleradiobutton.isSelected();
+		//boolean z = maleradiobutton.isSelected();
 		
 		
-		driver.findElement(By.name("customer_firstname")).sendKeys("tom");
+		//driver.findElement(By.name("customer_firstname")).sendKeys("tom");
+		
+		
+		
 		
 		
 		

@@ -1,33 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15054" started-at="2021-10-17T18:35:35Z" finished-at="2021-10-17T18:35:50Z">
+  <suite name="Default suite" duration-ms="31441" started-at="2022-06-15T01:03:31Z" finished-at="2022-06-15T01:04:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15054" started-at="2021-10-17T18:35:35Z" finished-at="2021-10-17T18:35:50Z">
+    <test name="Default test" duration-ms="31441" started-at="2022-06-15T01:03:31Z" finished-at="2022-06-15T01:04:02Z">
       <class name="testScript.TestNGTestScript">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testScript.TestNGTestScript@7f1302d6]" name="beforeTest" is-config="true" duration-ms="3194" started-at="2021-10-17T14:35:35Z" finished-at="2021-10-17T14:35:38Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testScript.TestNGTestScript@23529fee]" name="beforeTest" is-config="true" duration-ms="1972" started-at="2022-06-14T21:03:31Z" finished-at="2022-06-14T21:03:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:testScript.TestNGTestScript@7f1302d6]" name="beforeEachTest" is-config="true" duration-ms="122" started-at="2021-10-17T14:35:38Z" finished-at="2021-10-17T14:35:39Z">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:testScript.TestNGTestScript@23529fee]" name="beforeEachTest" is-config="true" duration-ms="2128" started-at="2022-06-14T21:03:33Z" finished-at="2022-06-14T21:03:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="positiveloginTest()[pri:0, instance:testScript.TestNGTestScript@7f1302d6]" name="positiveloginTest" duration-ms="4828" started-at="2021-10-17T14:35:39Z" finished-at="2021-10-17T14:35:43Z">
+        <test-method status="FAIL" signature="addaItem()[pri:0, instance:testScript.TestNGTestScript@23529fee]" name="addaItem" duration-ms="12078" started-at="2022-06-14T21:03:35Z" finished-at="2022-06-14T21:03:47Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="add-to-cart-sauce-labs-backpack"]"}
+  (Session info: chrome=102.0.5005.115)
+  (Driver info: chromedriver=102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}),platform=Windows NT 10.0.22000 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'Shumon', ip: '10.0.0.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53081}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}), userDataDir=C:\Users\syeds\AppData\Local\Temp\scoped_dir9956_1375511989}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=102.0.5005.115, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 37fb85e61cf45618b84a847da30ac007
+*** Element info: {Using=xpath, value=//*[@id="add-to-cart-sauce-labs-backpack"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="add-to-cart-sauce-labs-backpack"]"}
+  (Session info: chrome=102.0.5005.115)
+  (Driver info: chromedriver=102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}),platform=Windows NT 10.0.22000 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'Shumon', ip: '10.0.0.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53081}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}), userDataDir=C:\Users\syeds\AppData\Local\Temp\scoped_dir9956_1375511989}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=102.0.5005.115, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 37fb85e61cf45618b84a847da30ac007
+*** Element info: {Using=xpath, value=//*[@id="add-to-cart-sauce-labs-backpack"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.logInpage.getAddaIteam(logInpage.java:51)
+	at testScript.TestNGTestScript.addaItem(TestNGTestScript.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- positiveloginTest -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:testScript.TestNGTestScript@7f1302d6]" name="beforeEachTest" is-config="true" duration-ms="140" started-at="2021-10-17T14:35:43Z" finished-at="2021-10-17T14:35:44Z">
+        </test-method> <!-- addaItem -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:testScript.TestNGTestScript@23529fee]" name="beforeEachTest" is-config="true" duration-ms="2130" started-at="2022-06-14T21:03:47Z" finished-at="2022-06-14T21:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="negativeloginTest()[pri:1, instance:testScript.TestNGTestScript@7f1302d6]" name="negativeloginTest" duration-ms="3474" started-at="2021-10-17T14:35:44Z" finished-at="2021-10-17T14:35:47Z">
+        <test-method status="PASS" signature="negativeloginTest()[pri:0, instance:testScript.TestNGTestScript@23529fee]" name="negativeloginTest" duration-ms="3382" started-at="2022-06-14T21:03:49Z" finished-at="2022-06-14T21:03:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeloginTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testScript.TestNGTestScript@7f1302d6]" name="afterTest" is-config="true" duration-ms="3262" started-at="2021-10-17T14:35:47Z" finished-at="2021-10-17T14:35:50Z">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:testScript.TestNGTestScript@23529fee]" name="beforeEachTest" is-config="true" duration-ms="2108" started-at="2022-06-14T21:03:53Z" finished-at="2022-06-14T21:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="positiveloginTest()[pri:0, instance:testScript.TestNGTestScript@23529fee]" name="positiveloginTest" duration-ms="4443" started-at="2022-06-14T21:03:55Z" finished-at="2022-06-14T21:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveloginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testScript.TestNGTestScript@23529fee]" name="afterTest" is-config="true" duration-ms="3156" started-at="2022-06-14T21:03:59Z" finished-at="2022-06-14T21:04:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

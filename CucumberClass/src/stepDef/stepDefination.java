@@ -102,6 +102,10 @@ public class stepDefination {
 	@When("^user enters wrong username$")
 	public void user_enters_wrong_username() {
 		
+		cp.getwrongUserId().sendKeys("locked_out_user");
+		
+		
+		
 		
 	    
 	}
@@ -110,11 +114,16 @@ public class stepDefination {
 	public void user_enters_wrong_password()  {
 		
 		
+		cp.getwrongPassword().sendKeys("secret_sauce");
+		
+		
 	   
 	}
 
 	@When("^user click on login button with wrong data$")
 	public void user_click_on_login_button_with_wrong_data()  {
+		
+		cp.getloginButton().click();
 	    
 		
 	}

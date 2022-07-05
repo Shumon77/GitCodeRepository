@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import junit.framework.Assert;
+import signuppages.Pagesflickr;
 
 public class Scriptflickr {
 	

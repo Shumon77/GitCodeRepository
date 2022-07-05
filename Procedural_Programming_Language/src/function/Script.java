@@ -17,9 +17,9 @@ public class Script {
 		Pages hp = new Pages();
 		
 		
-		int z = hp.addTwoNumber(x, y);
+		//int z = hp.addTwoNumber(x, y);
 		
-		//int z = hp.addTwoNumber(10,12);
+		int z = hp.addTwoNumber(10,12);
 		
 		System.out.println(z);
 

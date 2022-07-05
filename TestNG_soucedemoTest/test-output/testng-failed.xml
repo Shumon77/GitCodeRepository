@@ -6,9 +6,8 @@
       <class name="testScript.TestNGTestScript">
         <methods>
           <include name="afterTest"/>
-          <include name="positiveloginTest"/>
+          <include name="addaItem"/>
           <include name="beforeTest"/>
-          <include name="negativeloginTest"/>
           <include name="beforeEachTest"/>
         </methods>
       </class> <!-- testScript.TestNGTestScript -->

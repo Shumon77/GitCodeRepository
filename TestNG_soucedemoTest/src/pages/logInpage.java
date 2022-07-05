@@ -45,6 +45,17 @@ public class logInpage {
    		
    		
    	}
+       public WebElement getAddaIteam() {
+    	   
+    	   
+    	   WebElement addaiteam = driver.findElement(By.xpath("//*[@id=\"add-to-cart-sauce-labs-backpack\"]"));
+    	   
+    	  return addaiteam; 
+    	   
+    	   
+    	   
+    	   
+       }
 	
 	
 	

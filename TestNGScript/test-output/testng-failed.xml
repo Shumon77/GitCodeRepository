@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
-  <test name="Default test(failed)" parallel="none">
+<suite name="Failed suite [Regression test]">
+  <test name="Signup testing(failed)">
     <classes>
       <class name="signuptestscript.Scriptflickr">
         <methods>
+          <include name="validatetitle"/>
+          <include name="validateurl"/>
           <include name="validateTermsURL"/>
+          <include name="maintest"/>
           <include name="beforetest"/>
-          <include name="aftertest"/>
+          <include name="signupisdisplayed"/>
         </methods>
       </class> <!-- signuptestscript.Scriptflickr -->
+      <class name="signuptestscript.TestScript">
+        <methods>
+          <include name="maintest"/>
+        </methods>
+      </class> <!-- signuptestscript.TestScript -->
+      <class name="signuptestscript.Signuptest">
+        <methods>
+          <include name="validateSignupe"/>
+          <include name="valedateURL"/>
+        </methods>
+      </class> <!-- signuptestscript.Signuptest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Signup testing(failed) -->
+</suite> <!-- Failed suite [Regression test] -->

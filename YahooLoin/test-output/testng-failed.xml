@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Regression Testing1234]">
-  <test name="Mercurytours,PhpTravels,Yahoologin Test Suite(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
     <classes>
       <class name="yahooValidateSignUp.ValidateSignUp">
         <methods>
           <include name="validateDate"/>
-          <include name="validateAfterTest"/>
+          <include name="validateFirstName"/>
+          <include name="validateEmailAddress"/>
           <include name="validateSignUp"/>
+          <include name="validateMobileNumber"/>
+          <include name="validateLastName"/>
+          <include name="validatePassWard"/>
           <include name="validateYahoo"/>
           <include name="validateYear"/>
+          <include name="validateMonth"/>
         </methods>
       </class> <!-- yahooValidateSignUp.ValidateSignUp -->
     </classes>
-  </test> <!-- Mercurytours,PhpTravels,Yahoologin Test Suite(failed) -->
-</suite> <!-- Failed suite [Regression Testing1234] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

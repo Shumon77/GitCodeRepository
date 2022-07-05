@@ -1,17 +1,22 @@
-package signuptestscript;
+package signuppages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class Pagessignup {
+public class Pagesflickr {
 	
 	WebDriver driver;
 	
-	public Pagessignup(WebDriver x) {
+	public Pagesflickr(WebDriver x) {
 		
 		driver = x;
+		
+		
+		
 	}
+	
+	
 	
 	
 	public WebElement getFirstName() {
@@ -22,7 +27,7 @@ public class Pagessignup {
 		return firstName;
 	}
 	
-    public WebElement getLastName() {
+       public WebElement getLastName() {
 		
 		WebElement lastName = driver.findElement(By.id("sign-up-last-name"));
 		
@@ -30,4 +35,15 @@ public class Pagessignup {
 		return lastName;
 	}
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 }

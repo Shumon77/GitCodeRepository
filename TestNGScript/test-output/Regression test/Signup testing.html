@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Signup testing</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/8</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 10 12:54:31 EST 2021</td>
+<td>Started on:</td><td>Sun Feb 13 15:51:35 EST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>12 seconds (12907 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4425 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,115 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='signuptestscript.Scriptflickr.beforetest()'><b>beforetest</b><br>Test class: signuptestscript.Scriptflickr</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.82 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.22000 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.41 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;Shumon&apos;, ip: &apos;10.0.0.167&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
+	at signuptestscript.Scriptflickr.beforetest(Scriptflickr.java:26)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace839998248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace839998248'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.82 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.22000 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.41 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;Shumon&apos;, ip: &apos;10.0.0.167&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
+	at signuptestscript.Scriptflickr.beforetest(Scriptflickr.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='signuptestscript.Scriptflickr.beforetest()'><b>beforetest</b><br>Test class: signuptestscript.Scriptflickr</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='signuptestscript.Scriptflickr.beforetest()'><b>beforetest</b><br>Test class: signuptestscript.Scriptflickr</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='signuptestscript.Scriptflickr.aftertest()'><b>aftertest</b><br>Test class: signuptestscript.Scriptflickr</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='signuptestscript.Scriptflickr.aftertest()'><b>aftertest</b><br>Test class: signuptestscript.Scriptflickr</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='signuptestscript.Scriptflickr.aftertest()'><b>aftertest</b><br>Test class: signuptestscript.Scriptflickr</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -78,22 +185,71 @@ function toggleAllBoxes() {
 <td title='signuptestscript.Scriptflickr.maintest()'><b>maintest</b><br>Test class: signuptestscript.Scriptflickr</td>
 <td></td>
 <td>0</td>
-<td>signuptestscript.Scriptflickr@2a5ca609</td></tr>
+<td>signuptestscript.Scriptflickr@51565ec2</td></tr>
 <tr>
 <td title='signuptestscript.TestScript.maintest()'><b>maintest</b><br>Test class: signuptestscript.TestScript</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;firstname&apos; is required by @Test on method maintest but has not been marked @Optional or defined
+in C:\Users\syeds\OneDrive\Desktop\Eclips Files\TestNGScript\src\SignupTest.xml
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace896982466", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace896982466'><pre>org.testng.TestNGException: 
+Parameter &apos;firstname&apos; is required by @Test on method maintest but has not been marked @Optional or defined
+in C:\Users\syeds\OneDrive\Desktop\Eclips Files\TestNGScript\src\SignupTest.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>signuptestscript.TestScript@482f8f11</td></tr>
+<tr>
+<td title='signuptestscript.Scriptflickr.signupisdisplayed()'><b>signupisdisplayed</b><br>Test class: signuptestscript.Scriptflickr</td>
 <td></td>
 <td>0</td>
-<td>signuptestscript.TestScript@20e2cbe0</td></tr>
+<td>signuptestscript.Scriptflickr@51565ec2</td></tr>
 <tr>
 <td title='signuptestscript.Signuptest.valedateURL()'><b>valedateURL</b><br>Test class: signuptestscript.Signuptest</td>
 <td></td>
 <td>0</td>
-<td>signuptestscript.Signuptest@2a2d45ba</td></tr>
+<td>signuptestscript.Signuptest@675d3402</td></tr>
 <tr>
 <td title='signuptestscript.Signuptest.validateSignupe()'><b>validateSignupe</b><br>Test class: signuptestscript.Signuptest</td>
 <td></td>
 <td>0</td>
-<td>signuptestscript.Signuptest@2a2d45ba</td></tr>
+<td>signuptestscript.Signuptest@675d3402</td></tr>
+<tr>
+<td title='signuptestscript.Scriptflickr.validateTermsURL()'><b>validateTermsURL</b><br>Test class: signuptestscript.Scriptflickr</td>
+<td></td>
+<td>0</td>
+<td>signuptestscript.Scriptflickr@51565ec2</td></tr>
+<tr>
+<td title='signuptestscript.Scriptflickr.validatetitle()'><b>validatetitle</b><br>Test class: signuptestscript.Scriptflickr</td>
+<td></td>
+<td>0</td>
+<td>signuptestscript.Scriptflickr@51565ec2</td></tr>
+<tr>
+<td title='signuptestscript.Scriptflickr.validateurl()'><b>validateurl</b><br>Test class: signuptestscript.Scriptflickr</td>
+<td></td>
+<td>0</td>
+<td>signuptestscript.Scriptflickr@51565ec2</td></tr>
 </table><p>
 </body>
 </html>

@@ -36,7 +36,7 @@ public class ValidateSignUp {
 			driver.get(" https://login.yahoo.com/account/create?specId=yidReg");
 			
 			
-			//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
 			Thread.sleep(20000);
 			

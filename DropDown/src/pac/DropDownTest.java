@@ -55,15 +55,21 @@ public class DropDownTest {
 		
 		emailTextBox.sendKeys("tom@icloud.com");
 		
+		
+		
 		Select ddcc = new Select(countryCodeDropd);
 		
 		ddcc.selectByIndex(10);   //Index start with zero.
 		
 		mobileTextBox.sendKeys("732727727");
 		
+		
+		
 		Select ddmonth = new Select(monthDropd);
 		
 		ddmonth.selectByVisibleText("August");
+		
+		
 		
 		dayDropd.sendKeys("11");
 		

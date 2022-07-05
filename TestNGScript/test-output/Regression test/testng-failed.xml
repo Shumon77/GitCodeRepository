@@ -5,15 +5,23 @@
     <classes>
       <class name="signuptestscript.Scriptflickr">
         <methods>
+          <include name="validatetitle"/>
+          <include name="validateurl"/>
+          <include name="validateTermsURL"/>
+          <include name="maintest"/>
           <include name="beforetest"/>
-          <include name="aftertest"/>
+          <include name="signupisdisplayed"/>
         </methods>
       </class> <!-- signuptestscript.Scriptflickr -->
+      <class name="signuptestscript.TestScript">
+        <methods>
+          <include name="maintest"/>
+        </methods>
+      </class> <!-- signuptestscript.TestScript -->
       <class name="signuptestscript.Signuptest">
         <methods>
           <include name="validateSignupe"/>
-          <include name="beforetest"/>
-          <include name="aftertest"/>
+          <include name="valedateURL"/>
         </methods>
       </class> <!-- signuptestscript.Signuptest -->
     </classes>

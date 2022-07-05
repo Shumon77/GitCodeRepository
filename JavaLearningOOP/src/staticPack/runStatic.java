@@ -10,6 +10,9 @@ public class runStatic {
 		System.out.println(staticclass.firstName);
 		
 		staticclass.getfirstName();
+		
+		
+		
 
 	}
 

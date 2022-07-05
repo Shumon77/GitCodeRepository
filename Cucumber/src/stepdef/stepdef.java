@@ -33,11 +33,15 @@ public class stepdef {
 
 	@When("^user click on the log in link$")
 	public void user_click_on_the_log_in_link()  {
+		
+		
 	   
 	}
 
 	@Then("^user should navigate to the log in page$")
 	public void user_should_navigate_to_the_log_in_page()  {
+		
+		
 	    
 	}
 
@@ -48,36 +52,51 @@ public class stepdef {
 
 	@When("^user enters username$")
 	public void user_enters_username()  {
+		
+		
 	   
 	}
 
 	@When("^user enters new password$")
 	public void user_enters_new_password()  {
+		
+		
 	    
 	}
 
 	@When("^user enters first name$")
 	public void user_enters_first_name()  {
+		
+		
 	    
 	}
 
 	@When("^user enters last name$")
 	public void user_enters_last_name()  {
+		
+		
 	   
 	}
 
 	@When("^user clicks on the signup button$")
 	public void user_clicks_on_the_signup_button() {
+		
+		
 	    
 	}
 
 	@Then("^new account for the user should be created$")
 	public void new_account_for_the_user_should_be_created()  {
+		
+		
 	    
 	}
 
 	@Then("^user should navigate to the new account page$")
 	public void user_should_navigate_to_the_new_account_page()  {
+		
+		
+		
 	    
 	}
 

@@ -14,7 +14,37 @@ public class basicjava {
 		// System.out.PrintIn(x)
 		
 		x=15;
-		System.out.println();
+		System.out.println(x);
+		
+		
+		int a = 10;
+		
+		int b = 15;
+		
+		
+		boolean c = (b > a);
+		
+		
+		System.out.println(c);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

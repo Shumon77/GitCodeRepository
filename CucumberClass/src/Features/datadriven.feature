@@ -3,6 +3,7 @@ Feature: validating login page
 
 
   Scenario Outline: positive testing
+  
     Given user is in the login page
     When user enters "<userid>" in the userid text box
     When user enters "<password>" in the password text box

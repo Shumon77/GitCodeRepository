@@ -46,16 +46,38 @@ public class cucumberpages {
 	}
 	
 	
-	public WebElement getfirstName() {
+	public WebElement getwrongUserId() {
 		
-		WebElement firstname = driver.findElement(By.id("usernamereg-firstName"));
+		WebElement wronguserid = driver.findElement(By.id("user-name"));
 		
-		return firstname;
+		return wronguserid;
 		
 		
 	}
 	
-      public WebElement getlastName() {
+      public WebElement getwrongPassword() {
+		
+		WebElement wrongpassword = driver.findElement(By.id("password"));
+		
+		return wrongpassword;
+		
+		
+	}
+      
+      
+      
+      public WebElement getfirstName() {
+    	  
+    	  WebElement firstname = driver.findElement(By.id("usernamereg-firstName"));
+    	  
+    	  return firstname;
+    	  
+    	  
+    	  
+      }
+	
+	
+	public WebElement getlastName() {
 		
 		WebElement lastname = driver.findElement(By.id("usernamereg-lastName"));
 		
@@ -63,9 +85,6 @@ public class cucumberpages {
 		
 		
 	}
-	
-	
-	
 	
 	
 	

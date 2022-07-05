@@ -22,7 +22,7 @@ public class LoginTest {
 	
 	
 	@BeforeTest
-	public void beforeTest() {
+	public void beforetest() {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\syeds\\OneDrive\\Desktop\\Libraries\\chromedriver.exe");
 		
@@ -42,7 +42,7 @@ public class LoginTest {
 	}
 	
 	@BeforeMethod
-	public void beforeEachTest() {
+	public void beforeEachtest() {
 		
 	driver.get("https://www.saucedemo.com/");	
 	
@@ -96,7 +96,7 @@ public class LoginTest {
 	}
 	
 	@AfterTest
-	public void afterTest() {
+	public void aftertest() {
 		
 		
 		

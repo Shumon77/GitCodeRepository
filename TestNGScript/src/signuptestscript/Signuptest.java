@@ -38,7 +38,7 @@ public class Signuptest {
 		
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void validateSignupe() {
 		
 		driver.findElement(By.id("usernamereg-password")).sendKeys("Sgg5757");
@@ -53,7 +53,7 @@ public class Signuptest {
 		
 	} 
 	
-	@Test
+	@Test(priority=2)
 	public void valedateURL() {
 		
 		

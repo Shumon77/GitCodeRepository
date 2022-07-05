@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+//<?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="Regression test">
+//<suite name="Regression test">
 
-<test name="Parametarization test-1">
+//<test name="Parametarization test-1">
 
-<parameter name="firstname" value="John"/>
+//<parameter name="firstname" value="John"/>
 
-<classes>
+//<classes>
 
-<class name="parametarization.SignupParameter"></class>
-
-
-
-</classes>
+//<class name="parametarization.SignupParameter"></class>
 
 
-</test>
 
-</suite>
+//</classes>
+
+
+//</test>
+
+//</suite>

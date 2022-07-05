@@ -2,8 +2,11 @@ package testScript;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -45,11 +48,13 @@ public class TestNGTestScript {
 	
 	
 	@BeforeMethod
-	public void beforeEachTest() {
+	public void beforeEachTest() throws InterruptedException {
+		
+		Thread.sleep(2000);
 		
 		driver.get("https://www.saucedemo.com/");
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
 		
 		
 		
@@ -86,6 +91,9 @@ public class TestNGTestScript {
 		
 		
 	}
+	
+	
+	
 	
 	
 	@Test(priority=1)//(dependsOnMethods = "positiveloginTest")
