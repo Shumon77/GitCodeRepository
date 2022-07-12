@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name = "parametarization">
+
+<test name = "Signup test">
+
+<parameter name = "firstName" value ="Tom"></parameter>
+
+<parameter name = "lastName" value = "Tom1"></parameter>
+
+
+
+<classes>
+
+<class name = "pacName.className">
+
+</class>
+
+</classes>
+</test>
+</suite>
